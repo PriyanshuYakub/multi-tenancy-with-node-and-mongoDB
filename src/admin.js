@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 
 const url = "mongodb://0.0.0.0:27017/multi_tenant_admin";
 
+
 let db;
 
 const tenantSchema = new mongoose.Schema({
